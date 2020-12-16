@@ -9,7 +9,8 @@ class AppState extends EventEmitter {
 
   cheese = 0
 
-  items= [new Item("Tims Terrific Item", 2, 10), new Item("Ryans Really Good Item", 4, 20), new Item("Parkers Passive Item", 1, 30)]
+  // items= [new Item("Tims Terrific Item", 2, 10), new Item("Ryans Really Good Item", 4, 20), new Item("Parkers Passive Item", 1, 30)]
+  items = []
 }
 
 export const ProxyState = new Proxy(new AppState(), {
